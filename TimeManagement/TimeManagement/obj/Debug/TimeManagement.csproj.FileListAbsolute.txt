@@ -1,0 +1,15 @@
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\bin\Debug\TimeManagement.exe.config
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\bin\Debug\TimeManagement.exe
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\bin\Debug\TimeManagement.pdb
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\TimeManagement.csprojAssemblyReference.cache
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\MainWindow.g.cs
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\App.g.cs
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\TimeManagement_MarkupCompile.cache
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\TimeManagement_MarkupCompile.lref
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\MainWindow.baml
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\TimeManagement.g.resources
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\TimeManagement.Properties.Resources.resources
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\TimeManagement.csproj.GenerateResource.cache
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\TimeManagement.csproj.CoreCompileInputs.cache
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\TimeManagement.exe
+D:\SHP-Projects\SHP-Project\TimeManagement\TimeManagement\obj\Debug\TimeManagement.pdb
