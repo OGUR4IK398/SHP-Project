@@ -6,8 +6,18 @@
         xmlns:local="clr-namespace:TimeManagement"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Canvas x:Name="CNV" HorizontalAlignment="Left" Height="300" Margin="282,10,0,0" VerticalAlignment="Top" Width="500"/>
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="419"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="792"/>
+        </Grid.ColumnDefinitions>
+
+        <Canvas x:Name="CNV" HorizontalAlignment="Left" Height="300" Margin="282,10,0,0" VerticalAlignment="Top" Width="500" Panel.ZIndex="-10"/>
+        <TextBox x:Name="StartDate" HorizontalAlignment="Left" Height="23" Margin="10,11,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="67"/>
+        <TextBox x:Name="EndDate" HorizontalAlignment="Left" Height="23" Margin="10,39,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="67"/>
+        <Button x:Name="Date" Content="Даты" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="67" Click="Date_Click"/>
 
     </Grid>
 </Window>

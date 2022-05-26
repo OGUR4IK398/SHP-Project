@@ -48,7 +48,8 @@ namespace TimeManagement
             line1.StrokeThickness = 1;
             CNV.Children.Add(line1);
             
-            for (int i = 30; i <= 480; i += 30)
+            // Отметки на осях
+            for (int i = 40; i <= 480; i += 40)
             {
                 Line line2 = new Line();
                 line2.Stroke = new SolidColorBrush(Colors.Black);
@@ -70,8 +71,31 @@ namespace TimeManagement
                 line2.Y2 = Y0 - i;
                 CNV.Children.Add(line2);
             }
+
+            // Разметки оси эффективности
+            for (int i = 15, dl = 40; i <= 105; i += 15, dl+=40)
+            {
+                Label s = new Label();
+                s.Content = i.ToString() + "%";
+                s.Margin = new Thickness(255, 280 - (dl - 5), 0, 0);
+                grid.Children.Add(s);
+            }
+
+            //for (int i = )
         }
 
-
+        private void Date_Click(object sender, RoutedEventArgs e)
+        {
+            int SD = Convert.ToInt32(StartDate.Text);
+            int ED = Convert.ToInt32(EndDate.Text);
+            for (int i = SD;i <= ED; i++)
+            {
+                Label s = new Label();
+                if (i >= 10) { s.Content = i.ToString() + ".05"; }
+                else { s.Content = "0" + i.ToString() + ".05"; }
+                s.Margin = new Thickness(275 + 40 * (i - SD +  1), 300, 0, 0);
+                grid.Children.Add(s);
+            }
+        }
     }
 }
