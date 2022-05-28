@@ -129,6 +129,12 @@ namespace TimeManagement {
             return;
             case 4:
             this.StartDate = ((System.Windows.Controls.TextBox)(target));
+            
+            #line 18 "..\..\MainWindow.xaml"
+            this.StartDate.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.StartDate_TextChanged);
+            
+            #line default
+            #line hidden
             return;
             case 5:
             this.EndDate = ((System.Windows.Controls.TextBox)(target));
